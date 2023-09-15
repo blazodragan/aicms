@@ -84,29 +84,30 @@ I will add here the steps when we are going to be installing the software on lin
 - [x] Prepare migrations for MODELS / Post / News / Pages / Media
 - [x] Set up multi-language for the front page
 - [ ] Multi-language Support (we need to ask which languages they want)
-    - [ ] German
-    - [ ] English
+  - [ ] German
+  - [ ] English
 - [ ] Setting up permissions will be separated into ROLES / PERMISSIONS every role has a set of permissions you can add a permission or take from the role - WORKING ON IT
-    - [ ] Roles can be
-        - [ ] Admin
-        - [ ] Agent
-        - [ ] Costumer / User
-        - [ ] We can add more talk about it
+  - [ ] Roles can be
+      - [ ] Admin
+      - [ ] Agent
+      - [ ] Costumer / User
+      - [ ] We can add more talk about it
 - [ ]  Components for every MODEL
-    - [ ]  Input
-    - [ ]  Date Selector (for when it will be published ) vcalendar
-    - [ ]  TextArea using TipTap editor [https://tiptap.dev/](https://tiptap.dev/)
-    - [ ]  Image cropper (first the Media Model needs to be connected so you can upload images) CropperJs [https://www.npmjs.com/package/vue-cropperjs](https://www.npmjs.com/package/vue-cropperjs)
-    - [ ]  DropDown Select with search for categories and some other options
-    - [ ]  Field input repeater that can be used for FAQ or something else 
-    - [ ]  Add more components as we need them this is all we need for now
-- [ ]  Set up the first admin pages with CRUD functionality (CREATE, READ, UPDATE and DELETE)
-    - [ ]  ROLES
-    - [ ]  PERMISSIONS
-    - [ ]  SETTINGS FOR LANGUAGES - so you can add them
-    - [ ]  PAGES
-    - [ ]  POSTS
-    - [ ]  NEWS
+  - [ ]  Input
+  - [ ]  Date Selector (for when it will be published ) vcalendar
+  - [ ]  TextArea using TipTap editor [https://tiptap.dev/](https://tiptap.dev/)
+  - [ ]  Image cropper (first the Media Model needs to be connected so you can upload images) CropperJs [https://www.npmjs.com/package/vue-cropperjs](https://www.npmjs.com/package/vue-cropperjs)
+  - [ ]  DropDown Select with search for categories and some other options
+  - [ ]  Field input repeater that can be used for FAQ or something else 
+  - [ ]  Add more components as we need them this is all we need for now
+- [ ]  Set up the first admin pages with CRUD functionality (CREATE, READ, UPDATE and DELETE) / FILTERING / SCOPING / MASS DELETION / EXPORT
+  - [ ]  USERS
+  - [ ]  ROLES
+  - [ ]  PERMISSIONS
+  - [ ]  SETTINGS FOR LANGUAGES - so you can add them
+  - [ ]  PAGES
+  - [ ]  POSTS
+  - [ ]  NEWS
 - [ ]  Front page templates
     - [ ]  Front page with modules to pull the latest 3 posts news and (Dejan needs to add the 3 other things)
       - [ ]  This will need to have a menu on top - we will see if we will define the menu from the admin area where you can select what to have
